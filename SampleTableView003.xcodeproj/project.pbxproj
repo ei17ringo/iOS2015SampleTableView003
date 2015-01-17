@@ -14,6 +14,7 @@
 		1BE9ED5719F61AFC00B20CE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE9ED5619F61AFC00B20CE7 /* Images.xcassets */; };
 		1BE9ED5A19F61AFC00B20CE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE9ED5819F61AFC00B20CE7 /* LaunchScreen.xib */; };
 		1BE9ED6619F61AFC00B20CE7 /* SampleTableView003Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9ED6519F61AFC00B20CE7 /* SampleTableView003Tests.m */; };
+		1BE9ED7119F61E2600B20CE7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9ED7019F61E2600B20CE7 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1BE9ED5F19F61AFC00B20CE7 /* SampleTableView003Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTableView003Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE9ED6419F61AFC00B20CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BE9ED6519F61AFC00B20CE7 /* SampleTableView003Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTableView003Tests.m; sourceTree = "<group>"; };
+		1BE9ED6F19F61E2600B20CE7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1BE9ED7019F61E2600B20CE7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1BE9ED4E19F61AFC00B20CE7 /* AppDelegate.m */,
 				1BE9ED5019F61AFC00B20CE7 /* ViewController.h */,
 				1BE9ED5119F61AFC00B20CE7 /* ViewController.m */,
+				1BE9ED6F19F61E2600B20CE7 /* DetailViewController.h */,
+				1BE9ED7019F61E2600B20CE7 /* DetailViewController.m */,
 				1BE9ED5319F61AFC00B20CE7 /* Main.storyboard */,
 				1BE9ED5619F61AFC00B20CE7 /* Images.xcassets */,
 				1BE9ED5819F61AFC00B20CE7 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				1BE9ED5219F61AFC00B20CE7 /* ViewController.m in Sources */,
 				1BE9ED4F19F61AFC00B20CE7 /* AppDelegate.m in Sources */,
 				1BE9ED4C19F61AFC00B20CE7 /* main.m in Sources */,
+				1BE9ED7119F61E2600B20CE7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
